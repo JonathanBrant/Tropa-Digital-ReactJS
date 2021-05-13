@@ -1,9 +1,5 @@
 import styles from "./styles.module.scss";
 import { Link } from 'react-router-dom'
-import { url } from "inspector";
-import  backgroundsvg  from './background.svg'
-
-
 
 export function Login() {
   return (
@@ -26,9 +22,9 @@ export function Login() {
         />
         <Link to="/home"><button type="button">Acessar</button></Link>
       </div>
-      <img src="background.svg" className={styles.secondContent} / >
+      <div  className={styles.secondContent}  >
         <img src="notebook.svg" className={styles.image2} alt="" />
-      
+        </div>
     </div>
     </div>
   );
