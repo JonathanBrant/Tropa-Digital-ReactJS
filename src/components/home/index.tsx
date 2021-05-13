@@ -27,7 +27,6 @@ export function Home() {
                     </li>
                 </ul>
             </div>
-
             <div className={styles.menuToggle} >
                 <img className={styles.image} src="logomenu.svg" alt="Tropa Digital" />
                 <ul>
