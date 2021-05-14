@@ -1,7 +1,10 @@
+import { Burguer } from "../burguerMenu";
 import styles from "./styles.module.scss";
 
 export function Content() {
     return (
+        <>
+        <Burguer />
         <div className={styles.container}>                
             <main className={styles.bannerContainer}>
                 <div className={styles.welcomeMessage}>
@@ -89,6 +92,7 @@ export function Content() {
             </main>
 
         </div>
+        </>
     )
 }
 
