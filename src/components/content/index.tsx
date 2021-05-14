@@ -12,7 +12,7 @@ export function Content() {
                         <div className={styles.imagesBanner}>
                             <img src="image.svg" alt="" />
                             <div className={styles.days}>
-                                <p className={styles.timeAgo}> <p>2min atrás</p></p>
+                                <p className={styles.timeAgo}>  <p>2min atrás</p></p>
                             </div>
                         </div>
                         <div className={styles.description}>
