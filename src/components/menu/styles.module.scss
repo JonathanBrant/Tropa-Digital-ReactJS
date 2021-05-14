@@ -1,0 +1,60 @@
+.menuContainer {
+  height: 100vh;
+  width: 35rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+
+  li {
+    list-style: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+
+  button {
+    height: 3.125rem;
+    width: 13.125rem;
+    border: none;
+    background: #2eafb2;
+    color: white;
+    margin-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  button:hover {
+    background: #f3f3f3;
+    color: black;
+    transition: 0.5s;
+    width: 100%;
+
+    img:first-child {
+      filter: brightness(0.6) invert(0.9) sepia(1) saturate(2)
+        hue-rotate(300deg);
+    }
+    img {
+      filter: brightness(0.6) invert(0.9) sepia(1) saturate(2)
+        hue-rotate(300deg);
+    }
+  }
+}
+
+.image {
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.image2 {
+  padding-right: 0.75rem;
+  filter: brightness(3) invert(0) sepia(1) saturate(0) hue-rotate(0deg);
+}
