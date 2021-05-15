@@ -1,13 +1,16 @@
 import styles from "./styles.module.scss";
-import { Menu } from '../menu/index'
 import { Content } from '../content/index'
-
+import MenuContainer from "../menuContainer";
+import Header from "../header";
 
 export function Home() {
     return (
         <div className={styles.container}>
-            <Menu />
-            <Content />
+            <MenuContainer />
+            <div>
+                <Header />
+                <Content />
+            </div>
         </div>
     )
 }
